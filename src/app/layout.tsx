@@ -1,8 +1,16 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Ubuntu_Mono } from 'next/font/google'
+import { MainNav } from './components/Header/components/main-nav'
+import { Header } from './components/Header'
+import { headerConfig } from '@/config/header-config'
+import { Socials } from './components/Socials'
+import { socialsConfig } from '@/config/socials'
 
-const inter = Inter({ subsets: ['latin'] })
+const ubuntu = Ubuntu_Mono({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -15,8 +23,14 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-BR">
+      <body className={`bg-[#28293D] text-white-primary ${ubuntu.className}`}>
+        <Socials items={socialsConfig} />
+        <Header>
+          <MainNav items={headerConfig} />
+        </Header>
+        {children}
+      </body>
     </html>
   )
 }
