@@ -3,6 +3,13 @@
 @tailwind components;
 @tailwind utilities;
 
+a,
+button,
+div {
+  -webkit-tap-highlight-color: transparent;
+  tap-highlight-color: transparent;
+}
+
 ::-webkit-scrollbar {
   width: 12px;
 }
