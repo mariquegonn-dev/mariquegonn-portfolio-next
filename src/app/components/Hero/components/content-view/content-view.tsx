@@ -4,11 +4,8 @@ export const ContentView = () => {
   return (
     <div className="grid gap-6 justify-items-start">
       <h1 className="text-3xl font-bold">
-        <p>
-          Olá! Me chamo <span className="text-purple-primary">Henrique</span>,
-          prazer,
-        </p>
-        <p className="mt-3"> e sou desenvolvedor Frontend.</p>
+        Olá! Me chamo <span className="text-purple-primary">Henrique</span>,
+        prazer, e sou desenvolvedor Frontend.
       </h1>
       <h2 className="text-xl font-light">
         versado em <span className="text-purple-primary">React</span> e{' '}

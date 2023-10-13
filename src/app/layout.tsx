@@ -6,6 +6,7 @@ import { Header } from './components/Header'
 import { headerConfig } from '@/config/header-config'
 import { Socials } from './components/Socials'
 import { socialsConfig } from '@/config/socials'
+import { MobileNav } from './components/Header/components/mobile-nav/mobile-nav'
 
 const ubuntu = Ubuntu_Mono({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({
         <Socials items={socialsConfig} />
         <Header>
           <MainNav items={headerConfig} />
+          <MobileNav items={headerConfig} />
         </Header>
         {children}
       </body>

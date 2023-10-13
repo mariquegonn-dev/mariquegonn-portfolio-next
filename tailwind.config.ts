@@ -26,6 +26,7 @@ const config: Config = {
         'orange-vscode': '#FCB162',
         'yellow-vscode': '#F1FA76',
         'gray-vscode': '#5372A4',
+        'black-bg': '#28293D',
       },
       boxShadow: {
         'inner-lg': '1px -1px 13px 5px rgba(0, 0, 0, 0.3) inset',

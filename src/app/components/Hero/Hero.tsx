@@ -12,9 +12,9 @@ export const Hero = () => {
 
   return (
     <section className="max-w-7xl mx-auto p-10 mt-10 jetbrains">
-      <div className="grid grid-cols-[1fr_0.8fr] items-center">
+      <div className="grid lg:grid-cols-[1fr_0.8fr] items-center grid-cols-1 gap-10">
         <div>
-          <div className="flex gap-[0.5px] mb-3 relative">
+          <div className="flex gap-[0.5px] mb-6 relative">
             <div
               onClick={() => {
                 if (openCode === 'browser') {
@@ -50,7 +50,7 @@ export const Hero = () => {
           {openCode === 'code' ? <CodeView /> : <ContentView />}
         </div>
 
-        <div className="w-80 justify-self-end relative shadow-inner shadow-black-primary rounded-full before:absolute after:absolute before:content-[''] after:content-[''] before:before-hero-react after:after-hero-typescript before:w-[48px] before:h-[48px] after:w-[48px] after:h-[48px] before:animate-slow-animate after:animate-slow-animate after:right-0 after:bottom-10 before:top-10">
+        <div className="w-60 lg:w-80 justify-self-center lg:justify-self-end relative shadow-inner shadow-black-primary rounded-full before:absolute after:absolute before:content-[''] after:content-[''] before:before-hero-react after:after-hero-typescript before:w-[48px] before:h-[48px] after:w-[48px] after:h-[48px] before:animate-slow-animate after:animate-slow-animate after:right-0 after:bottom-10 before:top-10">
           <Image
             className="rounded-full object-cover"
             width={600}
