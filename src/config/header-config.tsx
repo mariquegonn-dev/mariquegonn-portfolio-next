@@ -4,11 +4,6 @@ import { HeaderNav } from '@/types/header'
 export const headerConfig: HeaderNav = {
   mainNav: [
     {
-      title: 'Home',
-      href: '/',
-      icon: <HouseIcon />,
-    },
-    {
       title: 'Projetos',
       href: '/projetos',
       icon: <FileIcon />,

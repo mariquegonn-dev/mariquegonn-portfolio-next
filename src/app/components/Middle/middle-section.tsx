@@ -1,4 +1,4 @@
-import { MainMiddleSection } from '@/types/middle-section'
+import { MainMiddleSection } from '@/types/lang-type'
 import Image from 'next/image'
 import Link from 'next/link'
 

@@ -42,12 +42,6 @@ div {
   min-width: 30px;
 }
 
-@layer base {
-  .jetbrains {
-    font-family: 'JetBrains Mono', monospace;
-  }
-}
-
 @layer components {
   .before-hero {
     background: url('/assets/svg/caret-down.svg') no-repeat center;
@@ -63,5 +57,9 @@ div {
 
   li:hover svg {
     fill: #9933f8;
+  }
+
+  .svg-hover-none:hover svg {
+    fill: #f7f7f7;
   }
 }

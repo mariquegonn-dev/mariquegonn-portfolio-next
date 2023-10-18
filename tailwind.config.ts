@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        jetbrains: ['var(--font-jetbrains)'],
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -19,7 +22,7 @@ const config: Config = {
         'gray-primary': '#6B7280',
         'gray-button': '#21222C',
         'gray-button-sec': '#282A36',
-        'purple-primary': '#9933F8',
+        'purple-primary': '#9b30f9',
         'pink-vscode': '#DC79C6',
         'blue-vscode': '#8BE3ED',
         'green-vscode': '#41F378',

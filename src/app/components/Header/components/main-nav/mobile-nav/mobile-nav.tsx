@@ -6,13 +6,8 @@ import Link from 'next/link'
 
 export const MobileNavLink = ({ title, href, icon }: HeaderType) => {
   return (
-    <Link className="text-lg grid text-white-primary p-6" href={href}>
-      <span
-        className={cn(
-          ' py-1 transition-colors hover:text-purple-primary',
-          icon && 'flex gap-3 items-center'
-        )}
-      >
+    <Link className="text-lg grid p-6" href={href}>
+      <span className={cn(icon && 'flex gap-3 items-center')}>
         {icon}
         {title}
       </span>

@@ -1,6 +1,6 @@
-import { MainMiddleSection } from '@/types/middle-section'
+import { MainLangs } from '@/types/lang-type'
 
-export const middleSectionConfig: MainMiddleSection = {
+export const LangConfig: MainLangs = {
   items: [
     {
       src: '/assets/svg/js.svg',
