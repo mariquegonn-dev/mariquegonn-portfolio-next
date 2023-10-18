@@ -4,6 +4,9 @@ import { Reasons } from './components/Reasons'
 import { ContentView } from './components/Reasons/content-view'
 import { LangContent } from './components/Hero/components/lang-content/lang-content'
 import { LangConfig } from '@/config/lang-config'
+import { About } from './components/About'
+import { AboutConfig } from '@/config/about-config'
+import { AboutContent } from './components/About/components/about-content/about-content'
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       {/* <Reasons>
         <ContentView items={reasonsConfig} />
       </Reasons> */}
+      <About>
+        <AboutContent items={AboutConfig} />
+      </About>
     </main>
   )
 }
