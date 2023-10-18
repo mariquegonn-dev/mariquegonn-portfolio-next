@@ -5,12 +5,12 @@ export const headerConfig: HeaderNav = {
   mainNav: [
     {
       title: 'Projetos',
-      href: '/projetos',
+      href: '#projetos',
       icon: <FileIcon />,
     },
     {
       title: 'Contato',
-      href: '/contato',
+      href: '#contato',
       icon: <MailIcon />,
     },
   ],
