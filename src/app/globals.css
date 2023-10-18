@@ -55,7 +55,7 @@ div {
   }
 
   li:hover svg {
-    fill: #9933f8;
+    fill: #00d8ff;
   }
 
   .svg-hover-none:hover svg {

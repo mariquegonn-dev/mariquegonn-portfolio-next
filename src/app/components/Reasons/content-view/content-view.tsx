@@ -19,7 +19,7 @@ export const ContentView = ({ items }: ContentViewProps) => {
               {item.list.map((list, index) => (
                 <li
                   key={list}
-                  className="cursor-cell p-2  flex items-center justify-center border-[1px] border-gray-500 rounded-md shadow-sm shadow-blue-400 hover:scale-105 transition-all duration-300 hover:border-purple-primary svg-hover-none hover:shadow-none"
+                  className="cursor-cell p-2  flex items-center justify-center border-[1px] border-gray-500 rounded-md shadow-sm shadow-blue-400 hover:scale-105 transition-all duration-300 hover:border-blue-primary svg-hover-none hover:shadow-none"
                 >
                   <div className="flex gap-3 items-center flex-col">
                     {item.listIcons

@@ -6,7 +6,7 @@ export const Header = ({ children }: { children: React.ReactNode }) => {
       <div className="mx-auto max-w-7xl flex justify-between items-center p-10">
         <Link
           href="/"
-          className="text-white-primary text-xl font-semibold tracking-wider hover:text-purple-primary transition-colors duration-300"
+          className="text-white-primary text-xl font-semibold tracking-wider hover:text-blue-primary transition-colors duration-300"
         >
           MARIQUEGONN
         </Link>

@@ -34,24 +34,26 @@ export const LangContent = ({ items }: LangContentProps) => {
               principais tecnologias
             </span>
           </li>
-          <div className="flex gap-3">
-            {items.items
-              .filter((lang) =>
-                ['javascript', 'typescript', 'react.js', 'next.js'].includes(
-                  lang.alt.toLowerCase()
+          <li>
+            <ul className="flex gap-3">
+              {items.items
+                .filter((lang) =>
+                  ['javascript', 'typescript', 'react.js', 'next.js'].includes(
+                    lang.alt.toLowerCase()
+                  )
                 )
-              )
-              .map((i) => (
-                <li key={i.alt}>
-                  <Image
-                    width={i.alt === 'Figma' ? 32 : 48}
-                    height={48}
-                    alt={i.alt}
-                    src={i.src}
-                  />
-                </li>
-              ))}
-          </div>
+                .map((i) => (
+                  <li key={i.alt}>
+                    <Image
+                      width={i.alt === 'Figma' ? 32 : 48}
+                      height={48}
+                      alt={i.alt}
+                      src={i.src}
+                    />
+                  </li>
+                ))}
+            </ul>
+          </li>
         </ul>
       </div>
     </section>

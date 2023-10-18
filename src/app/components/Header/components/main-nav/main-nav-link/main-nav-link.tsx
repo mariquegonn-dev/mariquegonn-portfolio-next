@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const MainNavLink = ({ title, href }: HeaderType) => {
   return (
     <Link
-      className="text-lg p-3 inline-block text-white-primary hover:text-purple-primary"
+      className="text-lg p-3 inline-block text-white-primary hover:text-blue-primary"
       href={href}
     >
       {title}

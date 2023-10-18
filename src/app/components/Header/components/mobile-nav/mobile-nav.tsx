@@ -31,7 +31,7 @@ export const MobileNav = ({ items }: MainNavProps) => {
             {mainNav.map((item) => (
               <li
                 key={item.title}
-                className="border-b-[1px] border-l-[1px] border-gray-button py-1 transition-colors hover:text-purple-primary first:border-t-[1px]"
+                className="border-b-[1px] border-l-[1px] border-gray-button py-1 transition-colors hover:text-blue-primary first:border-t-[1px]"
               >
                 <MobileNavLink
                   onClick={() => setOpen(false)}
