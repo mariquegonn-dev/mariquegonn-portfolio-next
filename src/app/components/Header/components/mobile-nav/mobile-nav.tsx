@@ -17,7 +17,7 @@ export const MobileNav = ({ items }: MainNavProps) => {
           className={cn(
             'cursor-pointer w-10 h-10 flex items-center after:content-[""] after:w-7 after:h-1 after:bg-white-primary after:top-5 after:absolute before:content-[""] before:w-5 before:h-1 before:bg-white-primary before:absolute before:transition-all before:duration-300 after:transition-all after:duration-300 before:top-3',
             open &&
-              'after:rotate-45 before:-rotate-45 before:w-7 before:top-5 bg-red-400 pointer-events-none'
+              'after:rotate-45 before:-rotate-45 before:w-7 before:top-5 pointer-events-none'
           )}
         ></div>
       </div>
@@ -34,6 +34,7 @@ export const MobileNav = ({ items }: MainNavProps) => {
                 className="border-b-[1px] border-l-[1px] border-gray-button py-1 transition-colors hover:text-purple-primary first:border-t-[1px]"
               >
                 <MobileNavLink
+                  onClick={() => setOpen(false)}
                   title={item.title}
                   href={item.href}
                   icon={item.icon}
