@@ -10,7 +10,6 @@ export const Header = ({ children }: { children: React.ReactNode }) => {
         >
           MARIQUEGONN
         </Link>
-
         {children}
       </div>
     </header>

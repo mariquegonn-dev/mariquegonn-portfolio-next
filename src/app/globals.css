@@ -7,7 +7,6 @@ a,
 button,
 div {
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
 }
 
 ::-webkit-scrollbar {

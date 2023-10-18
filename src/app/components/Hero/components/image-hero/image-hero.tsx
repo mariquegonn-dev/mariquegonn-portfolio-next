@@ -9,6 +9,7 @@ export const ImageHero = () => {
         height={600}
         alt="imagem de perfil"
         src="/assets/images/cat.png"
+        priority={true}
       />
     </div>
   )

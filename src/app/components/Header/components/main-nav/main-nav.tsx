@@ -1,7 +1,8 @@
 'use client'
 
 import { MainNavProps } from './types/main-nav'
-import { MobileNavLink } from './mobile-nav/mobile-nav'
+
+import { MainNavLink } from './main-nav-link/main-nav-link'
 
 export const MainNav = ({ items }: MainNavProps) => {
   const { mainNav } = items
@@ -11,7 +12,7 @@ export const MainNav = ({ items }: MainNavProps) => {
       <ul className="hidden lg:flex gap-3">
         {mainNav.map((item, index) => (
           <li key={item.title}>
-            <MobileNavLink title={item.title} href={item.href} />
+            <MainNavLink title={item.title} href={item.href} />
           </li>
         ))}
       </ul>
