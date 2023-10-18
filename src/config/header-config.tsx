@@ -1,4 +1,4 @@
-import { FileIcon, HouseIcon, MailIcon } from '@/app/utils/icons'
+import { FileIcon, MailIcon } from '@/app/utils/icons'
 import { HeaderNav } from '@/types/header'
 
 export const headerConfig: HeaderNav = {
