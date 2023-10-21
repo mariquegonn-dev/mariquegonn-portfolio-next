@@ -54,11 +54,11 @@ div {
     background: url('/assets/svg/ts.svg') no-repeat center;
   }
 
-  li:hover svg {
+  svg:hover {
     fill: #00d8ff;
   }
 
-  .svg-hover-none:hover svg {
+  .svg-hover-none svg:hover {
     fill: #f7f7f7;
   }
 }

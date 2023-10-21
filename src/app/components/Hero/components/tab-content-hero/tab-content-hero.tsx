@@ -18,7 +18,7 @@ export const TabContentHero = () => {
             }
           }}
           className={cn(
-            'before:content-[""] before:before-hero before:w-[24px] before:h-[24px] before:absolute before:-top-7 before:animate-bounce before:left-11',
+            'before:content-[""] before:before-hero before:w-[24px] before:h-[24px] before:absolute before:-top-7 before:animate-bounce before:left-11 svg-hover-none',
             openCode === 'code'
               ? 'bg-gray-button-sec flex gap-1 items-center border-x-[1px] border-black-primary p-2 border-t-[1px] border-t-pink-vscode cursor-pointer before:hidden'
               : 'bg-gray-button flex gap-1 items-center border-black-primary p-2 cursor-pointer'

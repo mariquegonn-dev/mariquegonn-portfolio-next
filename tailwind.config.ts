@@ -38,6 +38,7 @@ const config: Config = {
       animation: {
         'slow-animate':
           '8s cubic-bezier(0.445, 0.05, 0.55, 0.95) 1.2s infinite alternate none running cubic-1',
+        'slide-down': 'slide-down 0.5s forwards',
       },
       keyframes: {
         'cubic-1': {
@@ -55,6 +56,16 @@ const config: Config = {
           },
           '100%': {
             transform: 'translate3d(20%, 0, 0)',
+          },
+        },
+        'slide-down': {
+          '0%': {
+            transform: 'translate3d(-50px, 0 , 0)',
+            opacity: '0',
+          },
+          '100%': {
+            transform: 'translate3d(0, 0, 0)',
+            opacity: '1',
           },
         },
       },

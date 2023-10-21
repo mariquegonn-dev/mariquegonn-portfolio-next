@@ -8,7 +8,7 @@ export {
   House as HouseIcon,
   FileCode as FileIcon,
   EnvelopeSimple as MailIcon,
-  SealCheck as CheckIcon,
+  Check as CheckIcon,
   Chats as ChatsIcon,
   CodeBlock as CodeIcon,
   Broom as BroomIcon,
@@ -17,4 +17,6 @@ export {
   Pencil as PencilIcon,
   Handshake as HandsIcon,
   Bug as BugIcon,
+  Link as LinkIcon,
+  CaretDown as CaretIcon,
 } from '@phosphor-icons/react'

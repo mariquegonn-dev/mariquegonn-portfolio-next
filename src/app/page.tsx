@@ -7,6 +7,9 @@ import { LangConfig } from '@/config/lang-config'
 import { About } from './components/About'
 import { AboutConfig } from '@/config/about-config'
 import { AboutContent } from './components/About/components/about-content/about-content'
+import { Projects } from './components/Projects'
+import { projectsTerminalConfig } from '@/config/projects-terminal'
+import { Console } from './components/Projects/components/console'
 
 export default function Home() {
   return (
@@ -20,6 +23,10 @@ export default function Home() {
       <About>
         <AboutContent items={AboutConfig} />
       </About>
+
+      <Projects>
+        <Console items={projectsTerminalConfig} />
+      </Projects>
     </main>
   )
 }
